@@ -43,9 +43,9 @@ public class Main {
      */
     public static String output(Balloon balloon) {
         return (balloon.isPopped) ? "Balloon" + balloon.id + " has popped!"
-            : "New values for" + balloon.id + " | X Position: "
-                + balloon.xPosition + " | Y Position: " + balloon.yPosition + " | ID: "
-                + balloon.id + " | Popped? - " + balloon.isPopped
-                + " | RGB Color value: " + balloon.color;
+            : "New values for Ballon#" + balloon.id + "\nX Position: "
+                + balloon.xPosition + "\nY Position: " + balloon.yPosition + "\nID: "
+                + balloon.id + "\nPopped? - " + balloon.isPopped
+                + "\nColor: " + balloon.color;
     }
 }
